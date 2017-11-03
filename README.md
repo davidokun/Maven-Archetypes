@@ -2,9 +2,13 @@
 
 This repository contains several examples of maven archetypes to create java projects.
 
-# List of Archetypes
+---
 
-## 1. Basic Spring Boot Archetype
+## List of Archetypes
+
+---
+
+### 1. Basic Spring Boot Archetype
 
 This archetype is for a basic Spring Boot application. Its main componenst are:
 
@@ -37,4 +41,5 @@ mvn archetype:generate
 ```
 It'll genrate a folder `light-spring-boot-app`. Open it with an IDE and you'll have a functional Spring Boot Application.
 
+---
 
