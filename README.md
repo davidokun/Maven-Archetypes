@@ -8,7 +8,7 @@ This repository contains several examples of maven archetypes to create java pro
 
 ---
 
-### 1. Basic Spring Boot Archetype
+### 1. [Basic Spring Boot Archetype](https://github.com/davidokun/Maven-Archetypes/tree/master/basic-spring-boot-archetype)
 
 ---
 
