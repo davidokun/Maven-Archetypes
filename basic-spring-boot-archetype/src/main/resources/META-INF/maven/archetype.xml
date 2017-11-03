@@ -1,0 +1,20 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+  <id>dark-spring-boot-app</id>
+  <sources>
+    <source>src/main/java/DarkApp.java</source>
+    <source>src/main/java/controller/DarkController.java</source>
+    <source>src/main/java/service/DarkService.java</source>
+  </sources>
+  <resources>
+    <resource>src/main/resources/application.properties</resource>
+  </resources>
+  <testSources>
+    <source>src/test/java/controller/DarkControllerTest.java</source>
+    <source>src/test/java/service/DarkServiceTest.java</source>
+  </testSources>
+  <testResources>
+    <resource>src/test/resources/application.properties</resource>
+  </testResources>
+  
+</archetype>
