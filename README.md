@@ -29,11 +29,11 @@ Then, in another folder outside `basic-spring-boot-archetype` run this command.
 
 ```
 mvn archetype:generate
-	-DarchetypeGroupId=com.darksideofthedev		  \
+	-DarchetypeGroupId=com.darksideofthedev		\
 	-DarchetypeArtifactId=dark-spring-boot-app	\
-	-DarchetypeVersion=1.0-SNAPSHOT				      \
-	-DgroupId=com.lightsideofthedev				      \
-	-DartifactId=light-spring-boot-app			    \
+	-DarchetypeVersion=1.0-SNAPSHOT			\
+	-DgroupId=com.lightsideofthedev			\
+	-DartifactId=light-spring-boot-app		\
 ```
 It'll genrate a folder `light-spring-boot-app`. Open it with an IDE and you'll have a functional Spring Boot Application.
 
