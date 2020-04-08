@@ -15,7 +15,7 @@ mvn archetype:generate \
 	-DarchetypeArtifactId=spring-boot-angular-app \
 	-DarchetypeVersion=0.0.1-SNAPSHOT \
 	-DgroupId=com.singletonapps \
-	-DartifactId=light-spring-boot-angular-app \
+	-DartifactId=spring-boot-angular-app \
 ```
 
 It'll genrate a folder `spring-boot-angular-app`. Open it with an IDE and you'll have a functional Spring Boot Application.
