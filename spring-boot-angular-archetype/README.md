@@ -3,11 +3,11 @@ Archetype to build a Spring Boot service and Angular as FE
 
 ### How to use it
 
-`cd` into `basic-spring-boot-archetype` and run
+`cd` into `spring-boot-angular-archetype` and run
 
 `mvn clean install`
 
-Then, in another folder outside `basic-spring-boot-archetype` run this command.
+Then, in another folder outside `spring-boot-angular-archetype` run this command.
 
 ```
 mvn archetype:generate \
